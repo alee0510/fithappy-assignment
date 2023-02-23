@@ -52,10 +52,16 @@ This project is build with `expo-app` and consist with 3 different files
 ## How to Run The Project?
 
 - firstly, you must `fork` this origin repo to your current GitHub repo. Then, you can begin modify this project localy by clone `(git clone remote-url...)` your `forked repositoy` to your local machine.
+- goto to `newsapi.org` and sign-up to get the `apiKey`
+- after you get the key, copy the `apiKey` and change the `API_KEY` value on `Service.Api.js` file with your new `apiKey`
 - open termial or command-line on the poject directory and run `yarn install` or `npm install`, make sure you has `nodejs` environtment and `npm` or `yarn` package manager in your local machine
 - connect your android device or run your simulator on local machine. Then, install `Expo-Go` app from app store or play store to your android device or simulator
 - do command `yarn android` to run the project on android or change to ios if you want to run on ios device
 
 ## Task or Challenge
+
+- Complete `onLoveSelect` event to handle `love count number` in header component. Your task is to make the love button on the news card change its color to `Color.error` when its selected or pressed. Then, increase love count number on the header component. When user press again the same love button, change the color to its original state and decrese the love count number
+- Do local data filter for rendered news card. When user click the chip button, the card will be filtered by the selected news source `localy` without requesting new data via network call
+- **BONUS** : change grid or list view of the news card by selecting the gird or list icon on the filter component
 
 ![image](screenshot.jpg)
