@@ -2,11 +2,11 @@
 
 ---
 
-## Description
+## Descriptions
 
-This project show all news from `country=us` with `health` category provided by `newsapi.org`. In this challnge, you will be given a task to complete some a ready defined function to complete some certain task.
+This project show all news from `country=us` with `health` category provided by `newsapi.org`. In this challenge, you will be given a task to complete some a ready defined function to complete some certain task.
 
-Futhermore, This is the response snapshot from the newsapi.org with health category and US as the source country
+Futhermore, this is the response snapshot from the newsapi.org with health category and US as the source country
 
 ``` JSON
 "totalResults": 67,
@@ -52,8 +52,10 @@ This project is build with `expo-app` and consist with 3 different files
 ## How to Run The Project?
 
 - firstly, you must `fork` this origin repo to your current GitHub repo. Then, you can begin modify this project localy by clone `(git clone remote-url...)` your `forked repositoy` to your local machine.
-- opon termial or command-line on the pojetc directory and run `yarn install` or `npm install`, make sure you has `nodejs` environtment and npm or yarn package manager in your local machine
-- do command `yarn android` to run the project on android or change to ios if you want to run on ios device. Make sure you has connected android device or running simulator on your local machine
+- open termial or command-line on the poject directory and run `yarn install` or `npm install`, make sure you has `nodejs` environtment and `npm` or `yarn` package manager in your local machine
+- connect your android device or run your simulator on local machine. Then, install `Expo-Go` app from app store or play store to your android device or simulator
+- do command `yarn android` to run the project on android or change to ios if you want to run on ios device
 
-## Task
+## Task or Challenge
 
+![image](screenshot.jpg)
