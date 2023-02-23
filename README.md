@@ -60,8 +60,8 @@ This project is build with `expo-app` and consist with 3 different files
 
 ## Task or Challenge
 
-- Complete `onLoveSelect` function to handle `love count number` in header component. Your task is to make the love button on the news card change its color to `Color.error` when its selected or pressed. Then, increase love count number on the header component. When user press again the same love button, change the color to its original state and decrese the love count number
-- Do local data filter for rendered news card. When user click the chip button, the card will be filtered by the selected news source `localy` without requesting new data via network call
+- complete `onLoveSelect` function to handle `love count number` in header component. Your task is to make the love button on the news card change its color to `Color.error` when its selected or pressed. Then, increase love count number on the header component. When user press again the same love button, change the color to its original state and decrese the love count number
+- do local data filter for rendered news card. When user click the chip button, the card will be filtered by the selected news source `localy` without requesting new data via network call
 - **BONUS** : change grid or list view of the news card by selecting the gird or list icon on the filter component
 
 ![image](screenshot.jpg)
