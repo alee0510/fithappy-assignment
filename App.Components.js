@@ -3,7 +3,7 @@ import { TouchableOpacity, ActivityIndicator, View, Text, Image } from "react-na
 import MaterialIcons from '@expo/vector-icons/MaterialCommunityIcons';
 import { Styles, Colors } from "./App.Styles"
 
-export const RenderNewsCard = ({ data }) => {
+export const RenderNewsCard = ({ data, onPress }) => {
 	return data?.map((item, index) => (
 		<View style={Styles.card} key={index}>
 			<View style={Styles.cardContent}>
@@ -17,7 +17,7 @@ export const RenderNewsCard = ({ data }) => {
 			</View>
 			<View style={Styles.cardFooter}>
 				<Text style={Styles.cardText}>Source : {item.source?.name}</Text>
-				<TouchableOpacity>
+				<TouchableOpacity onPress={() => onPress(index)}>
 					<MaterialIcons name='heart-outline' color="#404040" size={22}/>
 				</TouchableOpacity>
 			</View>

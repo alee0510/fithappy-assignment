@@ -29,6 +29,7 @@ export default function App() {
 		}
 	}
 
+	const onFavoriteSelect = (index) => {}
 	const onChipSelect = (id) => {}
 	const onOptionSelect = (id) => {}
 
@@ -48,7 +49,11 @@ export default function App() {
 			<View style={Styles.header}>
 				<Text style={Styles.headerTitle}>News</Text>
 				<View style={Styles.favorite}>
-					<MaterialIcons name='heart' color={Colors.error} size={25}/>
+					<MaterialIcons 
+						name='heart' 
+						color={Colors.error} 
+						size={25}
+					/>
 					<Text style={Styles.count}>0</Text>
 				</View>
 			</View>
@@ -69,7 +74,7 @@ export default function App() {
 			</View>
 			
 			<ScrollView style={Styles.content}>
-				<RenderNewsCard data={data}/>
+				<RenderNewsCard data={data} onPress={onFavoriteSelect}/>
 				<View style={Styles.box}/>
 			</ScrollView>
 		</View>
