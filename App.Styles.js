@@ -36,7 +36,7 @@ export const Styles = StyleSheet.create({
 		fontWeight : "bold",
 		color : Colors.white,
 	},
-	favorite : {
+	love : {
 		display : "flex",
 		flexDirection : "row",
 		alignItems : "center",
