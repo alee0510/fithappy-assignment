@@ -46,6 +46,7 @@ export default function App() {
 		<View style={Styles.container}>
 			<StatusBar barStyle="light-content" backgroundColor={Colors.primary}/>
 
+			{/* @header component */}
 			<View style={Styles.header}>
 				<Text style={Styles.headerTitle}>News</Text>
 				<View style={Styles.favorite}>
@@ -58,6 +59,7 @@ export default function App() {
 				</View>
 			</View>
 
+			{/* Filter Component */}
 			<View style={Styles.filter}>
 				<View style={Styles.chips}>
 					<RenderChips
@@ -73,6 +75,7 @@ export default function App() {
 				</View>
 			</View>
 			
+			{/* @new content */}
 			<ScrollView style={Styles.content}>
 				<RenderNewsCard data={data} onPress={onFavoriteSelect}/>
 				<View style={Styles.box}/>
